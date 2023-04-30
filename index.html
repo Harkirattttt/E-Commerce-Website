@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HarkiKart</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="nav">
+        <img src="images/logo.png" alt="Logo">
+        <ul>
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a> 
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>Login</h1>
+        <form action="" id="loginForm">
+            <div class="labels">Username</div>
+            <center><em><input type="text" id="usernameinput" name="usernameinput" class="inputtexts" placeholder="Type Your Username"></em></center>
+            <div class="usernameCheck"></div>
+            <div class="labels">Password</div>
+            <center><em><input type="password" id="passwordinput" name="passwordinput" class="inputtexts" placeholder="Type Your Password"></em></center>
+            <center><div class="passwordCheck"></div></center>
+            <br>
+            <center>
+            <input type="submit" value="SUBMIT" id="submitBtn"></center>
+            <center><div id="orSignUp">Or Signup Using</div></center>
+            <center><a href="signup.html" id="signUpLink">SIGN UP</a></center>
+            <br>
+        </form>
+    </div>
+    <script src="scripts/users.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
